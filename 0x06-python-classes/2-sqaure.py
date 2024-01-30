@@ -1,19 +1,19 @@
-@property
-def size (self):
-    """Get the size of the square."""
-    return.self_size
+#!/usr/bin/python3
+
+"""Define a class Square."""
 
 
-@size.setter
-def size(self, value):
-    """set the size of the square.
+class Square:
+    """Represent a square."""
 
+    def _init(self, size=0):
+        """initialize anew Square.
 
     Args:
     value (init) The new size of the square.
     """
-    if not isinstance(value, int):
+    if not isinstance(size, int):
         raise TypeError("size must be an integer")
     elif value < 0:
         raise ValueError("size must be >= 0")
-    self._size = value
+    self._size = size
