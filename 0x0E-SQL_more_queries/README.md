@@ -73,6 +73,7 @@ Database
 information_schema                                                                         
 mysql                                                                                      
 performance_schema                                                                         
+<<<<<<< HEAD
 sys                      
 $
 In the container, credentials are root/root
@@ -93,3 +94,6 @@ id  name
 6   Crime
 7   Suspense
 8   Thriller
+=======
+sys                  
+>>>>>>> ee79a59fdb3c9cfec8d51e216ab3f606b9706349
