@@ -8,7 +8,7 @@
 
 if __name__ == "__main__":
         import sys
-        from urllib import requests, error
+        from urllib import request, error
 
         try:
             with requests.urlopen(sys.argv[1]) as res:
