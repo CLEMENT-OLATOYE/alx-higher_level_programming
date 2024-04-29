@@ -1,14 +1,14 @@
 #!/usr/bin/python3
 """A script that
 - fetches https://alx-intranet.hbtn.io/status.
-- uses urlib package
+- uses urllib package
 """
 
 
 if __name__ == '__main__':
-    import urlib.request
+    import urllib.request
 
-    with urlib.request.urlopen('https://alx-intranet.hbtn.io/status') as res:
+    with urllib.request.urlopen('https://alx-intranet.hbtn.io/status') as res:
         content = res.read()
         print("Body response:")
         print("\t- type: {}".format(type(content)))
